@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@mipmap/schedule"
+            android:title="@string/menu_schedule" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/info"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@mipmap/search"
+            android:title="@string/menu_search" />
+        <item
+            android:id="@+id/nav_announce"
+            android:icon="@mipmap/announce"
+            android:title="@string/menu_announce" />
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@mipmap/qrcode"
+            android:title="@string/menu_scan" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
